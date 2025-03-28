@@ -1,0 +1,28 @@
+{"level":"info","message":"Database connection pool established successfully","timestamp":"2025-02-21T18:17:52.380Z"}
+{"level":"info","message":"Table users initialized successfully","timestamp":"2025-02-21T18:17:52.388Z"}
+{"level":"info","message":"Table game_sessions initialized successfully","timestamp":"2025-02-21T18:17:52.390Z"}
+{"level":"info","message":"Table games initialized successfully","timestamp":"2025-02-21T18:17:52.392Z"}
+{"level":"info","message":"Table transactions initialized successfully","timestamp":"2025-02-21T18:17:52.393Z"}
+{"level":"info","message":"Table admin_controls initialized successfully","timestamp":"2025-02-21T18:17:52.395Z"}
+{"level":"info","message":"Table admin_logs initialized successfully","timestamp":"2025-02-21T18:17:52.396Z"}
+{"level":"info","message":"Database initialization completed successfully","timestamp":"2025-02-21T18:17:52.397Z"}
+{"level":"info","message":"Server running on http://localhost:3000","timestamp":"2025-02-21T18:17:52.401Z"}
+{"level":"info","message":"Available on your network at:","timestamp":"2025-02-21T18:17:52.405Z"}
+{"level":"info","message":"http://192.168.147.152:3000","timestamp":"2025-02-21T18:17:52.405Z"}
+{"level":"info","message":"Running game session auto-end task","timestamp":"2025-02-21T18:18:00.472Z"}
+{"level":"info","message":"Running game session auto-end task","timestamp":"2025-02-21T18:19:00.107Z"}
+{"level":"info","message":"Received shutdown signal","timestamp":"2025-02-21T18:19:52.158Z"}
+{"level":"info","message":"Database connection pool established successfully","timestamp":"2025-02-21T18:19:54.727Z"}
+{"level":"info","message":"Table users initialized successfully","timestamp":"2025-02-21T18:19:54.734Z"}
+{"level":"info","message":"Table game_sessions initialized successfully","timestamp":"2025-02-21T18:19:54.736Z"}
+{"level":"info","message":"Table games initialized successfully","timestamp":"2025-02-21T18:19:54.738Z"}
+{"level":"info","message":"Table transactions initialized successfully","timestamp":"2025-02-21T18:19:54.740Z"}
+{"level":"info","message":"Table admin_controls initialized successfully","timestamp":"2025-02-21T18:19:54.741Z"}
+{"level":"info","message":"Table admin_logs initialized successfully","timestamp":"2025-02-21T18:19:54.743Z"}
+{"level":"info","message":"Database initialization completed successfully","timestamp":"2025-02-21T18:19:54.744Z"}
+{"level":"info","message":"Server running on port 3000","timestamp":"2025-02-21T18:19:54.749Z"}
+{"addresses":["http://192.168.147.152:3000"],"level":"info","message":"Available on your network at:","timestamp":"2025-02-21T18:19:54.754Z"}
+{"level":"info","message":"Running game session auto-end task","timestamp":"2025-02-21T18:20:00.812Z"}
+{"level":"info","message":"Starting graceful shutdown","timestamp":"2025-02-21T18:20:34.717Z"}
+{"level":"info","message":"HTTP server closed","timestamp":"2025-02-21T18:20:34.718Z"}
+{"level":"info","message":"WebSocket server closed","timestamp":"2025-02-21T18:20:34.719Z"}

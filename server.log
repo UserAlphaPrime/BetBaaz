@@ -1,0 +1,8 @@
+{"level":"info","message":"Server running on http://localhost:3000"}
+{"code":"ER_FK_CANNOT_OPEN_PARENT","errno":1824,"level":"error","message":"Database initialization failed: Failed to open the referenced table 'game_sessions'","sql":"\n            CREATE TABLE IF NOT EXISTS games (\n                id INT PRIMARY KEY AUTO_INCREMENT,\n                user_id INT,\n                selected_number INT NOT NULL,\n                bet_amount DECIMAL(10,2) NOT NULL,\n                winning_number INT NOT NULL,\n                result ENUM('win', 'lose') NOT NULL,\n                created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,\n                game_session_id INT NULL,\n                FOREIGN KEY (user_id) REFERENCES users(id),\n                FOREIGN KEY (game_session_id) REFERENCES game_sessions(id)\n            )\n        ","sqlMessage":"Failed to open the referenced table 'game_sessions'","sqlState":"HY000","stack":"Error: Failed to open the referenced table 'game_sessions'\n    at PromisePool.query (C:\\Users\\santosh\\Desktop\\web\\node_modules\\mysql2\\lib\\promise\\pool.js:36:22)\n    at initDatabase (C:\\Users\\santosh\\Desktop\\web\\server.js:70:18)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)"}
+{"level":"info","message":"Server running on http://localhost:3000"}
+{"level":"info","message":"Database initialized successfully"}
+{"level":"info","message":"Running game session auto-end task"}
+{"level":"info","message":"No game sessions to auto-end."}
+{"level":"info","message":"Server running on http://localhost:3000"}
+{"level":"info","message":"Database initialized successfully"}
